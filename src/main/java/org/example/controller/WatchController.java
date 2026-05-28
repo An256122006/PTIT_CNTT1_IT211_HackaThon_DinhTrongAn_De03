@@ -19,7 +19,7 @@ import java.util.Map;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/api/v1/watchs")
+@RequestMapping("/api/v1/watches")
 public class WatchController {
     private final WatchService watchService;
     @GetMapping
